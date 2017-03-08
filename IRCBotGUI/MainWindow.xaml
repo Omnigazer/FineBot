@@ -1,0 +1,12 @@
+﻿<Window x:Class="IRCBotGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="675" Width="630">
+    <Grid>
+        <TextBox x:Name="inputBox" HorizontalAlignment="Left" Height="23" Margin="10,615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" KeyDown="TextBox_KeyDown" RenderTransformOrigin="0.412,9.478"/>
+        <TabControl x:Name="channelTabs" HorizontalAlignment="Left" Height="600" Margin="10,10,0,0" VerticalAlignment="Top" Width="600">
+            <TabItem Header="Status" Margin="-74,0,70,-3"/>
+        </TabControl>
+
+    </Grid>
+</Window>
